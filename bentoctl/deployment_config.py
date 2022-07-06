@@ -198,7 +198,7 @@ class DeploymentConfig:
 
         return generated_files
 
-    def create_deployable(self, destination_dir=os.curdir) -> str:
+    def create_deployable(self, destination_dir) -> str:
         """
         Creates the deployable in the destination_dir and returns
         the docker args for building
